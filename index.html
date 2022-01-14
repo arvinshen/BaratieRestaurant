@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baratie</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="desktop-header">
+            <div class="container">
+                <div class="site-logo">
+                    <a class="site-logo-style" href="index.html">
+                        <img alt="Baratie" src="images/baratie_logo_turquoise.png">
+                    </a>
+                </div>
+                <nav class="site-nav">
+                    <ul class="site-nav-bar">
+                        <li><a class="site-nav-link" href="pages/menu.html">Menu</a></li>
+                        <li><a class="site-nav-link" href="pages/about.html">About</a></li>
+                        <li><a class="site-nav-link" href="pages/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="carousel-box">
+        <div class="slideshow-container">
+            <div class="slides">
+                <img src="images/carousel1.jpg">
+            </div>
+            <div class="slides">
+                <img src="images/carousel2.jpg">
+            </div>
+            <div class="slides">
+                <img src="images/carousel3.jpg">
+            </div>
+            <div class="slides">
+                <img src="images/carousel4.jpg">
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">❮</a>
+            <span id="float">Floating Restaurant</span>
+            <a class="next" onclick="changeSlide(1)">❯</a>
+        </div>
+    </section>
+    <section class="main-content">
+        <div class="content-container">
+            <p class="content-text">Baratie is the only floating restaurant in all the oceans of the world. It is a critically acclaimed 3 michelin star restaurant located in East Blue.</p>
+            <div>
+                <img class="michelin" src="images/michelin-star-3-symbol.png">
+            </div>
+            <a href="pages/about.html">Learn More</a>
+            <p class="content-text">Chefs and owners Zeff and Sanji's goal is to make sure no one goes hungry when they're traveling the vast seas. Everyone is welcome to experience the rich, progressive flavors
+                that comprise the menu and is guaranteed to leave satisfied.
+            </p>
+        </div>
+    </section>
+    <section class="home-content-image"></section>
+    <footer>
+        <div class="social-media-box">
+            <div class="social-media-container">
+                <a class="social-media-logo" href="https://www.facebook.com/RestaurantBaratie/">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+                <a class="social-media-logo" href="https://twitter.com/hashtag/baratie?lang=en">
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                </a>
+                <a class="social-media-logo" href="https://www.instagram.com/explore/tags/baratie/?hl=en">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </div>
+            <span class="footer-info">Located in East Blue, close to the entrance of the Grand Line • 843-320-1777 • info@baratierestaurant.com</span>
+        </div>
+    </footer>
+    <footer class="sponsor">Powered by BentoBox</footer>
+    <script src="https://use.fontawesome.com/c0b33d06a0.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

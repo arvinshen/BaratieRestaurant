@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baratie</title>
+    <link rel="stylesheet" href="../styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="desktop-header">
+            <div class="container">
+                <div class="site-logo">
+                    <a class="site-logo-style" href="../index.html">
+                        <img alt="Baratie" src="../images/baratie_logo_turquoise.png">
+                    </a>
+                </div>
+                <nav class="site-nav">
+                    <ul class="site-nav-bar">
+                        <li><a class="site-nav-link" href="menu.html">Menu</a></li>
+                        <li><a class="site-nav-link" href="about.html">About</a></li>
+                        <li><a class="site-nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section>
+    <div class="contact-box">
+        <h1>Contact Us</h1>
+        <p>Send us a message and we'll get back to you as soon as possible. We look forward to hearing from you!! </p>
+        <div class="contact-container">
+            <form name="myform" action="input-results.php" method="post">
+                <div>
+                    <label class="input-label">
+                        <span class="input-label">Name</span> 
+                        <input type="text" class="form-control" name="name-input" id="name-input" placeholder="Name" required="">
+                    </label>
+                </div>
+                <div>
+                    <label class="input-label">
+                        <span>Email</span> 
+                        <input type="email" class="form-control" name="email-input" id="email-input" placeholder="Email" required="">
+                    </label>
+                </div>
+                <div>
+                    <label class="input-label">Phone Number
+                        <input type="text" class="form-control" name="telephone-input" id="telephone-input" placeholder="Phone Number" required="">
+                    </label>
+                </div>
+                <div>
+                    <label class="input-label message">Message
+                        <textarea class="form-control" name="message-input" id="message-input" placeholder="Your Message" required=""></textarea>
+                        <!-- <input type="text" class="form-control" name="message-input" placeholder="Your Message" required=""> -->
+                    </label>
+                </div>
+                <input type="submit"></input>
+            </form>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <div class="social-media-box">
+            <div class="social-media-container">
+                <a class="social-media-logo" href="https://www.facebook.com/RestaurantBaratie/">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+                <a class="social-media-logo" href="https://twitter.com/hashtag/baratie?lang=en">
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                </a>
+                <a class="social-media-logo" href="https://www.instagram.com/explore/tags/baratie/?hl=en">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </div>
+            <span class="footer-info">Located in East Blue, close to the entrance of the Grand Line • 843-320-1777 • info@baratierestaurant.com</span>
+        </div>
+    </footer>
+    <footer class="sponsor">Powered by BentoBox</footer>
+    <script src="https://use.fontawesome.com/c0b33d06a0.js"></script>
+    <script src="../index.js"></script>
+</body>
+</html>
